@@ -1,0 +1,31 @@
+.title {
+    font-size: var(--primary-fz);
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.my-80 {
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+}
+.brand-color {
+    color: var(--primary-color);
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    font-size: var(--secondary-fz);
+    font-weight: 700;
+    color: #fff;
+    border: 0 none;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover {
+    background-color: var(--primary-color);
+}

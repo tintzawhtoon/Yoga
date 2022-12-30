@@ -1,0 +1,47 @@
+.yoga-products {
+    margin-top: 55px;
+}
+.yoga-products h1 {
+    font-size: var(--primary-fz);
+    font-weight: 700;
+    /* margin-bottom: 23px; */
+}
+.yoga-products h1 span {
+    color: var(--primary-color);
+}
+.yoga-products-main {
+    margin-top: 23px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+    text-align: center;
+}
+.yoga-products-img {
+    height: 293px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.yoga-products-item img {
+    width: 100%;
+}
+.yoga-products-item h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+@media (max-width: 1100px) {
+    .yoga-products-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .yoga-products-img {
+        height: 400px;
+    }
+}
+@media (max-width: 500px) {
+    .yoga-products-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}

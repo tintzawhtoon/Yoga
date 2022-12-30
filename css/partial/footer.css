@@ -1,0 +1,29 @@
+footer {
+    margin-top: 55px;
+    background-color: var(--secondary-color);
+    height: 60px;
+    line-height: 60px;
+}
+.footer-cotnent {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-cotnent p {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--body-color);
+}
+
+@media (max-width: 500px) {
+    footer {
+        height: 90px;
+        line-height: 30px;
+    }
+    .footer-cotnent {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+}

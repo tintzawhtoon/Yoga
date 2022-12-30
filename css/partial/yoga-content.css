@@ -1,0 +1,44 @@
+.yoga-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+}
+.yoga-content-img {
+    width: 35%;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+.yoga-content-img img {
+    width: 70%;
+}
+.yoga-content-body {
+    width: 65%;
+}
+.yoga-content-body h1 {
+    font-size: var(--primary-fz);
+    font-weight: 700;
+    line-height: var(--line-height);
+}
+.yoga-content-body h1 span {
+    color: var(--primary-color);
+}
+.yoga-content-body p {
+    color: var(--body-color);
+    line-height: var(--line-height);
+    font-size: 15px;
+    margin-top: 25px;
+}
+@media (max-width: 500px) {
+    .yoga-content {
+        display: block;
+    }
+    .yoga-content-img {
+        width: 100%;
+    }
+    .yoga-content-body {
+        width: 100%;
+    }
+}
